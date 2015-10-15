@@ -353,17 +353,17 @@ public class Conveyor extends org.apache.avro.specific.SpecificRecordBase implem
                 throw new org.apache.avro.AvroRuntimeException(e);
             }
         }
+    }
 
-        @Override
-        public String toString() {
-            return "Conveyor{" +
-                    "timestamp=" + timestamp +
-                    ", conveyorId=" + conveyorId +
-                    ", speed=" + speed +
-                    ", vibration=" + vibration +
-                    ", load=" + load +
-                    '}';
-        }
+    @Override
+    public String toString() {
+        return "Conveyor:{" +
+                "timestamp=" + timestamp +
+                ", conveyorId=" + conveyorId +
+                ", speed=" + speed +
+                ", vibration=" + vibration +
+                ", load=" + load +
+                '}';
     }
 }
 

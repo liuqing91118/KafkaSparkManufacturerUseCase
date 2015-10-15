@@ -5,7 +5,6 @@ import kafka.producer.KeyedMessage;
 import kafka.producer.ProducerConfig;
 import com.google.gson.Gson;
 import java.util.Properties;
-import EventClass.Conveyor;
 import org.apache.avro.specific.SpecificRecordBase;
 
 /**

@@ -411,7 +411,7 @@ public class Motor extends org.apache.avro.specific.SpecificRecordBase implement
 
     @Override
     public String toString() {
-        return "Motor{" +
+        return "Motor:{" +
                 "timestamp=" + timestamp +
                 ", motorId='" + motorId + '\'' +
                 ", speed=" + speed +
